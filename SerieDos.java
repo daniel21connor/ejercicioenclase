@@ -3,9 +3,9 @@ package ejercicioenclase;
 import java.util.Scanner;
 public class SerieDos {
     static  Scanner scanner=new Scanner (System.in);
-    private final double hola;
+  double hola;
     public SerieDos(){
-        this.hola = Math.random();
+      
     }
     
     
@@ -47,6 +47,7 @@ public class SerieDos {
        System.out.println ("pares");
        for (int i=0; i<conteoPares; i++) {
            System.out.println(par[i]+"-  ");
+           
        }
        
        System.out.println ("impares");
